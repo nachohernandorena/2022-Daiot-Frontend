@@ -19,7 +19,7 @@ export const Item = ({ item }: ItemProps) => {
                 keys?.map((key) => {
                     const value = item[key];
                     return (
-                        <div style={{ display: "flex" }}>
+                        <div key={key} style={{ display: "flex" }}>
                             <Typography variant="h6" style={{ fontWeight: "bold" }}>{key}</Typography>
                             <Typography variant="h6">: {value}</Typography>
                         </div>

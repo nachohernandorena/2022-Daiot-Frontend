@@ -9,6 +9,7 @@ export interface ItemProps {
     nombre?: any;
     ubicacion?: any;
     id?: any;
+    _id?: any;
 }
 export const Item = ({ dispositivoId, nombre, ubicacion, id }: ItemProps) => {
     return (
