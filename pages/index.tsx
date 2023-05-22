@@ -5,10 +5,6 @@ import { useDispositivoList } from "./../api"
 import { Item, ItemProps, Layout } from "./../Components"
 import { Paper, Typography, Grid } from "@mui/material"
 
-
-
-
-
 const Home: NextPage = () => {
 
   const { dispositivos } = useDispositivoList();
